@@ -12,16 +12,18 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
     PagesModule,
     AppRoutingModule, // Rutas principales siempre en ultimo lugar de importacion
+
   ],
   providers: [],
   bootstrap: [AppComponent]
